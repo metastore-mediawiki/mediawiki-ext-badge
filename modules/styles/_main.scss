@@ -1,0 +1,26 @@
+.mw-ext-badge {
+	box-shadow: 0 2px 3px rgba(10, 10, 10, .1);
+	font-size: .9em;
+	float: right;
+	clear: right;
+	overflow: hidden;
+	margin: 0 0 1em 1em;
+	width: 20em;
+	&-body {
+		display: grid;
+		grid-gap: 0 1em;
+		grid-template-columns: 5em 1fr;
+		background-color: hsl(204, 86%, 53%);
+		color: hsl(0, 0%, 100%);
+		div {
+			padding: .5em;
+		}
+	}
+	&-icon {
+		display: inline-grid;
+		align-items: center;
+		justify-items: center;
+		background-color: hsla(0, 0%, 0%, .03);
+		font-size: 2em;
+	}
+}

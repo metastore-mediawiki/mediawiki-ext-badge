@@ -1,0 +1,52 @@
+{
+	"name": "MW_EXT_Badge",
+	"version": "1.0.0",
+	"author": [
+		"[https://kitsune.solar/ Kitsune Solar]",
+		"[https://metastore.pro/ METASTORE]",
+		"..."
+	],
+	"url": "https://metastore.pro/",
+	"descriptionmsg": "mw-ext-badge-desc",
+	"license-name": "[https://www.gnu.org/licenses/gpl-3.0.txt GPL-3.0]",
+	"type": "parserhook",
+	"require": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"AutoloadClasses": {
+		"MW_EXT_Badge": "MW_EXT_Badge.class.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"MW_EXT_Badge::onParserFirstCallInit"
+		],
+		"BeforePageDisplay": [
+			"MW_EXT_Badge::onBeforePageDisplay"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"MW_EXT_BadgeMagic": "MW_EXT_Badge.i18n.magic.php"
+	},
+	"MessagesDirs": {
+		"MW_EXT_Badge": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.mw.badge.styles": {
+			"styles": [
+				"styles/theme.css"
+			],
+			"position": "top",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "MW_EXT_Badge/modules"
+	},
+	"manifest_version": 2
+}

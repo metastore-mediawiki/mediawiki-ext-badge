@@ -1,0 +1,146 @@
+{
+	"badge": {
+		"user": {
+			"art": {
+				"id": "art",
+				"icon": "fas fa-paint-brush",
+				"category": "user-art-category",
+				"content": "",
+				"status": ""
+			},
+			"music": {
+				"id": "music",
+				"icon": "fas fa-music",
+				"category": "user-music-category",
+				"content": "user-art-content",
+				"status": ""
+			},
+			"write": {
+				"id": "write",
+				"icon": "fas fa-pencil-alt",
+				"category": "user-write-category",
+				"content": "user-write-content",
+				"status": ""
+			},
+			"fursuit": {
+				"id": "fursuit",
+				"icon": "fas fa-paw",
+				"category": "user-fursuit-category",
+				"content": "user-fursuit-content",
+				"status": ""
+			},
+			"stream": {
+				"id": "stream",
+				"icon": "fas fa-stream",
+				"category": "user-stream-category",
+				"content": "user-stream-content",
+				"status": ""
+			},
+			"rusfurence": {
+				"id": "rusfurence",
+				"icon": "fas fa-paw",
+				"category": "user-rusfurence-category",
+				"content": "user-rusfurence-content",
+				"status": ""
+			},
+			"ukrfurence": {
+				"id": "ukrfurence",
+				"icon": "fas fa-paw",
+				"category": "user-ukrfurence-category",
+				"content": "user-ukrfurence-content",
+				"status": ""
+			},
+			"anthrocon": {
+				"id": "anthrocon",
+				"icon": "fas fa-paw",
+				"category": "user-anthrocon-category",
+				"content": "user-anthrocon-content",
+				"status": ""
+			},
+			"califur": {
+				"id": "califur",
+				"icon": "fas fa-paw",
+				"category": "user-califur-category",
+				"content": "user-califur-content",
+				"status": ""
+			},
+			"confurence": {
+				"id": "confurence",
+				"icon": "fas fa-paw",
+				"category": "user-confurence-category",
+				"content": "user-confurence-content",
+				"status": ""
+			},
+			"confurence-east": {
+				"id": "confurence-east",
+				"icon": "fas fa-paw",
+				"category": "user-cfe-category",
+				"content": "user-cfe-content",
+				"status": ""
+			},
+			"confuzzled": {
+				"id": "confuzzled",
+				"icon": "fas fa-paw",
+				"category": "user-confuzzled-category",
+				"content": "user-confuzzled-content",
+				"status": ""
+			},
+			"eurofurence": {
+				"id": "eurofurence",
+				"icon": "fas fa-paw",
+				"category": "user-eurofurence-category",
+				"content": "user-eurofurence-content",
+				"status": ""
+			},
+			"feral": {
+				"id": "feral",
+				"icon": "fas fa-paw",
+				"category": "user-feral-category",
+				"content": "user-feral-content",
+				"status": ""
+			},
+			"furry-connection-north": {
+				"id": "fcn",
+				"icon": "fas fa-paw",
+				"category": "user-fcn-category",
+				"content": "user-fcn-content",
+				"status": ""
+			},
+			"further-confusion": {
+				"id": "further",
+				"icon": "fas fa-paw",
+				"category": "user-further-category",
+				"content": "user-further-content",
+				"status": ""
+			},
+			"furry-weekend-atlanta": {
+				"id": "fwa",
+				"icon": "fas fa-paw",
+				"category": "user-fwa-category",
+				"content": "user-fwa-content",
+				"status": ""
+			},
+			"megaplex": {
+				"id": "megaplex",
+				"icon": "fas fa-paw",
+				"category": "user-megaplex-category",
+				"content": "user-megaplex-content",
+				"status": ""
+			},
+			"midwest-furfest": {
+				"id": "mff",
+				"icon": "fas fa-paw",
+				"category": "user-mff-category",
+				"content": "user-mff-content",
+				"status": ""
+			},
+			"what-the-fur": {
+				"id": "wtf",
+				"icon": "fas fa-paw",
+				"category": "user-wtf-category",
+				"content": "user-wtf-content",
+				"status": ""
+			}
+		}
+	}
+}
