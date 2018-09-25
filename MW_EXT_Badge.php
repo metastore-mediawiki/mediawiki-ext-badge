@@ -10,7 +10,7 @@ if ( function_exists( 'wfLoadExtension' ) ) {
 	// Keep i18n globals so mergeMessageFileList.php doesn't break.
 	$wgExtensionMessagesFiles['MW_EXT_Badge'] = __DIR__ . '/i18n';
 
-	return true;
+	return;
 } else {
-	die( 'This version of the MW_EXT_Badge extension requires MediaWiki 1.30+' );
+	die( 'This version of the MW_EXT_Badge extension requires MediaWiki 1.31+' );
 }
